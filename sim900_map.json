@@ -1,0 +1,88 @@
+[
+	{
+		"DeviceName": "SIM900",
+		"DeviceType": "SIM900",
+		"IP": "192.168.2.212",
+		"Port": 4001,
+		"Channels": [
+			{
+				"ChannelName":"ULTRAHEAD",
+				"ChannelType": "SIM921",
+				"ChannelNum": 1,
+				"CalibrationSpline": "RuO2",
+				"Excitation": 6,
+				"Range": 6,
+				"ResetRange": 5,
+				"ResetExcitation": 7,
+				"Frequency": 13.7025
+			},
+			{
+				"ChannelName": "INTERHEAD",
+				"ChannelType": "SIM921",
+				"ChannelNum": 3,
+				"CalibrationSpline": "RuO2",
+				"Excitation": 6,
+				"Range": 6,
+				"ResetRange": 5,
+				"ResetExcitation": 7,
+				"Frequency": 13.7025
+			},
+			{
+				"ChannelName": "INTER HEAT EXCHANGER",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 5,
+				"SubChannelNum": 1,
+				"CalibrationSpline": "Hex"
+			},
+			{
+				"ChannelName": "MAIN PLATE",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 5,
+				"SubChannelNum": 2,
+				"CalibrationSpline": "Diode"
+			},
+			{
+				"ChannelName": "He4 INTERPUMP",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 5,
+				"SubChannelNum": 3,
+				"CalibrationSpline": "Diode"
+			},
+			{
+				"ChannelName": "He3 INTERPUMP",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 5,
+				"SubChannelNum": 4,
+				"CalibrationSpline": "Diode"
+			},
+			{
+				"ChannelName": "He3 ULTRAPUMP",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 6,
+				"SubChannelNum": 1,
+				"CalibrationSpline": "Diode"
+			},
+			{
+				"ChannelName": "He4 INTERPUMP SWITCH",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 6,
+				"SubChannelNum": 2,
+				"CalibrationSpline": "Diode"
+			},
+			{
+				"ChannelName": "He3 INTERPUMP SWITCH",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 6,
+				"SubChannelNum": 3,
+				"CalibrationSpline": "Diode"
+			},
+			{
+				"ChannelName": "He3 ULTRAPUMP SWITCH",
+				"ChannelType": "SIM922Diode",
+				"ChannelNum": 6,
+				"SubChannelNum": 4,
+				"CalibrationSpline": "Diode"
+			}
+		]
+	}
+]
